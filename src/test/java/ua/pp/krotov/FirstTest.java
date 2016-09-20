@@ -55,6 +55,7 @@ public class FirstTest {
         driver.findElement(By.id("index_email")).sendKeys("dezaol@ukr.net");
         driver.findElement(By.id("index_pass")).sendKeys("1111891");
         driver.findElement(By.id("index_login_button")).click();
+        //text branch2
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("top_profile_link")));
 
